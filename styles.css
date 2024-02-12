@@ -1,0 +1,36 @@
+/* 全体のスタイリング */
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* ゲームコンテナのスタイリング */
+#game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+/* ライフ表示のスタイリング */
+.lives {
+    font-size: 3em; /* 大きなハートマーク */
+}
+
+/* プレイヤー1（YOUR）ライフを左に配置 */
+#life2 {
+    flex: 1;
+    text-align: left;
+}
+
+/* プレイヤー2（CPU）ライフを右に配置 */
+#life1 {
+    flex: 1;
+    text-align: right;
+}
+
+/* 結果表示のスタイリング */
+.result {
+    font-size: 4em; /* 大きなテキスト */
+    flex: 2; /* 中央のスペースを広く取る */
+}
